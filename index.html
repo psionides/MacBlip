@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MacBlip</title>
+  <link rel="stylesheet" type="text/css" href="macblip.css">
+  <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css">
+  <script type="text/javascript" src="jquery-1.4.4.min.js"></script>
+  <script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $("a[rel=lightbox]").fancybox({
+        changeSpeed: 200,
+        speedIn: 200,
+        speedOut: 200,
+        overlayColor: '#333',
+        cyclic: true
+      });
+    });
+  </script>
+</head>
+<body>
+
+  <a href="http://github.com/jsuder/MacBlip">
+    <img style="position: absolute; top: 0; right: 0; border: 0;"
+     src="http://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub" />
+  </a>
+
+  <div id="main">
+
+    <div id="sidebar">
+      <p class="shot"><a href="macblip_shot2.png" rel="lightbox"><img src="macblip_shot2.png" width="280"></a></p>
+
+      <div id="version">
+        <p>
+          <a href="http://github.com/downloads/jsuder/MacBlip/MacBlip-0.4.1.zip">
+            <img src="arrow.png" alt=""> Pobierz
+          </a>
+        </p>
+        <p class="version-number">Wersja 0.4.1 &ndash; 6.8 MB</p>
+      </div>
+
+      <div class="changelog">
+        <h4>Wersja 0.4.1 (IX 2012)</h4>
+        <ul>
+          <li>kompatybilność z OSX 10.7/10.8</li>
+          <li>drobne poprawki</li>
+        </ul>
+
+        <h4>Wersja 0.4 (VI 2011)</h4>
+        <ul>
+          <li>skracanie i rozwijanie linków rdir</li>
+          <li>przycisk załaduj więcej</li>
+          <li>funkcja odpowiedz z cytatem</li>
+          <li>wylogowywanie</li>
+          <li>usługa systemowa "wyślij przez MacBlipa"</li>
+        </ul>
+      </div>
+    </div>
+
+    <h1><img src="macblip_popydo_80.png" /> MacBlip</h1>
+
+    <h2>Co to takiego?</h2>
+    <p>MacBlip to - jak sama nazwa wskazuje - klient <a href="http://blip.pl">Blipa</a> na Maka.</p>
+
+    <h2>Czy działa na ...?</h2>
+    <p>MacBlip wymaga Snow Leoparda (10.6) i procesora z architekturą 64-bitową (czyli dowolny Mac po roku 2006). Działa też na 10.7 i 10.8.</p>
+
+    <h2>To jest płatne, darmowe, open source?</h2>
+    <p>MacBlip jest open source, na licencji Eclipse Public License v1.0 (<a href="http://github.com/jsuder/MacBlip">źródła są dostępne na GitHubie</a>).</p>
+
+    <h2>Nie działa mi / zawiesiło mi się / brakuje czegoś ...</h2>
+    <p>Niestety ze względu na <a href="http://blip.pl/tags/blipisdead">powolny upadek Blipa</a> przestałem pracować nad
+      MacBlipem. Jeśli będą jakieś problemy np. z uruchomieniem na OSX 10.9 to pojawi się jakiś bugfix release, ale
+      oprócz tego nowych wersji już nie będzie. Jeśli znajdzie się ktoś kto chciałby rozwijać projekt dalej, to
+      proszę o kontakt (jakub.suder at gmail.com).</p>
+
+    <p class="coda">
+      © Jakub Suder 2012 &middot;
+      Ikonka by Paweł Opydo &middot;
+      CSS by <a href="http://rb2js.rubyforge.org/">Paul Battley</a> &amp; <a href="http://ec2onrails.rubyforge.org/">Paul Dowman</a>
+    </p>
+  </div>
+
+  <script type="text/javascript">
+  var clicky = { log: function(){ return; }, goal: function(){ return; }};
+  var clicky_site_id = 13976;
+  (function() {
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = ( document.location.protocol == 'https:' ? 'https://pmetrics.performancing.com/js' : 'http://pmetrics.performancing.com/js' );
+    ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+  })();
+  </script>
+  <a title="" href="http://pmetrics.performancing.com/13976"></a>
+  <noscript><p><img alt="Performancing Metrics" width="1" height="1" src="http://pmetrics.performancing.com/13976ns.gif" /></p></noscript>
+
+</body>
+</html>
